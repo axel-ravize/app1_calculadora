@@ -43,6 +43,9 @@ Partial Class Form1
         Me.Boton9 = New System.Windows.Forms.Button()
         Me.Boton8 = New System.Windows.Forms.Button()
         Me.BotonBorrar = New System.Windows.Forms.Button()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.RadioButton1 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton2 = New System.Windows.Forms.RadioButton()
         Me.SuspendLayout()
         '
         'Label1
@@ -67,7 +70,7 @@ Partial Class Form1
         'BotonMas
         '
         Me.BotonMas.Font = New System.Drawing.Font("Ebrima", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BotonMas.Location = New System.Drawing.Point(698, 26)
+        Me.BotonMas.Location = New System.Drawing.Point(756, 25)
         Me.BotonMas.Name = "BotonMas"
         Me.BotonMas.Size = New System.Drawing.Size(59, 55)
         Me.BotonMas.TabIndex = 2
@@ -107,7 +110,7 @@ Partial Class Form1
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Cambria Math", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(267, 170)
+        Me.Label4.Location = New System.Drawing.Point(255, 170)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(71, 134)
         Me.Label4.TabIndex = 6
@@ -116,7 +119,7 @@ Partial Class Form1
         'BotonMenos
         '
         Me.BotonMenos.Font = New System.Drawing.Font("Ebrima", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BotonMenos.Location = New System.Drawing.Point(698, 100)
+        Me.BotonMenos.Location = New System.Drawing.Point(756, 99)
         Me.BotonMenos.Name = "BotonMenos"
         Me.BotonMenos.Size = New System.Drawing.Size(59, 55)
         Me.BotonMenos.TabIndex = 7
@@ -126,7 +129,7 @@ Partial Class Form1
         'BotonPor
         '
         Me.BotonPor.Font = New System.Drawing.Font("Ebrima", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BotonPor.Location = New System.Drawing.Point(698, 178)
+        Me.BotonPor.Location = New System.Drawing.Point(756, 177)
         Me.BotonPor.Name = "BotonPor"
         Me.BotonPor.Size = New System.Drawing.Size(59, 54)
         Me.BotonPor.TabIndex = 8
@@ -136,7 +139,7 @@ Partial Class Form1
         'BotonEntre
         '
         Me.BotonEntre.Font = New System.Drawing.Font("Ebrima", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BotonEntre.Location = New System.Drawing.Point(698, 249)
+        Me.BotonEntre.Location = New System.Drawing.Point(756, 248)
         Me.BotonEntre.Name = "BotonEntre"
         Me.BotonEntre.Size = New System.Drawing.Size(59, 55)
         Me.BotonEntre.TabIndex = 9
@@ -146,7 +149,7 @@ Partial Class Form1
         'Boton0
         '
         Me.Boton0.Font = New System.Drawing.Font("Ebrima", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Boton0.Location = New System.Drawing.Point(535, 249)
+        Me.Boton0.Location = New System.Drawing.Point(593, 248)
         Me.Boton0.Name = "Boton0"
         Me.Boton0.Size = New System.Drawing.Size(59, 55)
         Me.Boton0.TabIndex = 10
@@ -156,7 +159,7 @@ Partial Class Form1
         'Boton1
         '
         Me.Boton1.Font = New System.Drawing.Font("Ebrima", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Boton1.Location = New System.Drawing.Point(458, 178)
+        Me.Boton1.Location = New System.Drawing.Point(516, 177)
         Me.Boton1.Name = "Boton1"
         Me.Boton1.Size = New System.Drawing.Size(59, 55)
         Me.Boton1.TabIndex = 11
@@ -166,7 +169,7 @@ Partial Class Form1
         'Boton2
         '
         Me.Boton2.Font = New System.Drawing.Font("Ebrima", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Boton2.Location = New System.Drawing.Point(535, 178)
+        Me.Boton2.Location = New System.Drawing.Point(593, 177)
         Me.Boton2.Name = "Boton2"
         Me.Boton2.Size = New System.Drawing.Size(59, 55)
         Me.Boton2.TabIndex = 12
@@ -176,7 +179,7 @@ Partial Class Form1
         'Boton3
         '
         Me.Boton3.Font = New System.Drawing.Font("Ebrima", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Boton3.Location = New System.Drawing.Point(612, 178)
+        Me.Boton3.Location = New System.Drawing.Point(670, 177)
         Me.Boton3.Name = "Boton3"
         Me.Boton3.Size = New System.Drawing.Size(59, 55)
         Me.Boton3.TabIndex = 13
@@ -186,7 +189,7 @@ Partial Class Form1
         'Boton4
         '
         Me.Boton4.Font = New System.Drawing.Font("Ebrima", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Boton4.Location = New System.Drawing.Point(458, 100)
+        Me.Boton4.Location = New System.Drawing.Point(516, 99)
         Me.Boton4.Name = "Boton4"
         Me.Boton4.Size = New System.Drawing.Size(59, 55)
         Me.Boton4.TabIndex = 14
@@ -196,7 +199,7 @@ Partial Class Form1
         'Boton5
         '
         Me.Boton5.Font = New System.Drawing.Font("Ebrima", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Boton5.Location = New System.Drawing.Point(535, 100)
+        Me.Boton5.Location = New System.Drawing.Point(593, 99)
         Me.Boton5.Name = "Boton5"
         Me.Boton5.Size = New System.Drawing.Size(59, 55)
         Me.Boton5.TabIndex = 15
@@ -206,7 +209,7 @@ Partial Class Form1
         'Boton6
         '
         Me.Boton6.Font = New System.Drawing.Font("Ebrima", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Boton6.Location = New System.Drawing.Point(612, 100)
+        Me.Boton6.Location = New System.Drawing.Point(670, 99)
         Me.Boton6.Name = "Boton6"
         Me.Boton6.Size = New System.Drawing.Size(59, 55)
         Me.Boton6.TabIndex = 16
@@ -216,7 +219,7 @@ Partial Class Form1
         'Boton7
         '
         Me.Boton7.Font = New System.Drawing.Font("Ebrima", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Boton7.Location = New System.Drawing.Point(458, 26)
+        Me.Boton7.Location = New System.Drawing.Point(516, 25)
         Me.Boton7.Name = "Boton7"
         Me.Boton7.Size = New System.Drawing.Size(59, 55)
         Me.Boton7.TabIndex = 17
@@ -226,7 +229,7 @@ Partial Class Form1
         'Boton9
         '
         Me.Boton9.Font = New System.Drawing.Font("Ebrima", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Boton9.Location = New System.Drawing.Point(612, 26)
+        Me.Boton9.Location = New System.Drawing.Point(670, 25)
         Me.Boton9.Name = "Boton9"
         Me.Boton9.Size = New System.Drawing.Size(59, 55)
         Me.Boton9.TabIndex = 18
@@ -236,7 +239,7 @@ Partial Class Form1
         'Boton8
         '
         Me.Boton8.Font = New System.Drawing.Font("Ebrima", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Boton8.Location = New System.Drawing.Point(535, 26)
+        Me.Boton8.Location = New System.Drawing.Point(593, 25)
         Me.Boton8.Name = "Boton8"
         Me.Boton8.Size = New System.Drawing.Size(59, 55)
         Me.Boton8.TabIndex = 19
@@ -246,19 +249,54 @@ Partial Class Form1
         'BotonBorrar
         '
         Me.BotonBorrar.Font = New System.Drawing.Font("Ebrima", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BotonBorrar.Location = New System.Drawing.Point(612, 249)
+        Me.BotonBorrar.Location = New System.Drawing.Point(670, 248)
         Me.BotonBorrar.Name = "BotonBorrar"
         Me.BotonBorrar.Size = New System.Drawing.Size(59, 55)
         Me.BotonBorrar.TabIndex = 20
         Me.BotonBorrar.Text = "C"
         Me.BotonBorrar.UseVisualStyleBackColor = True
         '
+        'Button1
+        '
+        Me.Button1.Font = New System.Drawing.Font("Ebrima", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Location = New System.Drawing.Point(516, 248)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(59, 55)
+        Me.Button1.TabIndex = 21
+        Me.Button1.Text = "."
+        Me.Button1.UseVisualStyleBackColor = True
+        '
+        'RadioButton1
+        '
+        Me.RadioButton1.AutoSize = True
+        Me.RadioButton1.Location = New System.Drawing.Point(395, 50)
+        Me.RadioButton1.Name = "RadioButton1"
+        Me.RadioButton1.Size = New System.Drawing.Size(90, 17)
+        Me.RadioButton1.TabIndex = 22
+        Me.RadioButton1.TabStop = True
+        Me.RadioButton1.Text = "RadioButton1"
+        Me.RadioButton1.UseVisualStyleBackColor = True
+        '
+        'RadioButton2
+        '
+        Me.RadioButton2.AutoSize = True
+        Me.RadioButton2.Location = New System.Drawing.Point(395, 137)
+        Me.RadioButton2.Name = "RadioButton2"
+        Me.RadioButton2.Size = New System.Drawing.Size(90, 17)
+        Me.RadioButton2.TabIndex = 23
+        Me.RadioButton2.TabStop = True
+        Me.RadioButton2.Text = "RadioButton2"
+        Me.RadioButton2.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(787, 359)
+        Me.ClientSize = New System.Drawing.Size(838, 359)
+        Me.Controls.Add(Me.RadioButton2)
+        Me.Controls.Add(Me.RadioButton1)
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.BotonBorrar)
         Me.Controls.Add(Me.Boton8)
         Me.Controls.Add(Me.Boton9)
@@ -308,4 +346,7 @@ Partial Class Form1
     Friend WithEvents Boton9 As Button
     Friend WithEvents Boton8 As Button
     Friend WithEvents BotonBorrar As Button
+    Friend WithEvents Button1 As Button
+    Friend WithEvents RadioButton1 As RadioButton
+    Friend WithEvents RadioButton2 As RadioButton
 End Class
