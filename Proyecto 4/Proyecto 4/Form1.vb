@@ -33,10 +33,17 @@
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles BotonEntre.Click
 
+        Dim Resultado
+
         Dim Numero1 As Double = Double.Parse(TextBox1.Text)
         Dim Numero2 As Double = Double.Parse(TextBox2.Text)
 
-        Dim Resultado As Double = Numero1 / Numero2
+        If Numero2 > 0 Then
+            Resultado = Numero1 / Numero2
+        Else
+            Resultado = "No se puede"
+        End If
+
         Label4.Text = Resultado.ToString()
 
     End Sub
